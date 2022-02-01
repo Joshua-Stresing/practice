@@ -12,7 +12,7 @@ export const animals = [
         numberOfLegs: 4,
         class: 'Mammal',
         cuteness: 12,
-        image: 'icons8-money-box-100.png',
+        image: 'icons8-red-panda-100.png',
     },
     {
         type: 'orca',

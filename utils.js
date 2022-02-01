@@ -14,3 +14,12 @@ export function renderAnimal(animal) {
     div.append(h2, img, p);
     return div;
 }
+export function renderGames(games) {
+    const div = document.createElement('div');
+    div.classList.add('games');
+
+    const p = document.createElement('p');
+    p.textContent = `${games}`;
+    div.append(p);
+    return div;
+}
