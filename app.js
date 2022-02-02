@@ -1,4 +1,5 @@
 // import functions and grab DOM elements
+
 import { animals } from './animals.js';
 import { renderAnimal } from './utils.js';
 
