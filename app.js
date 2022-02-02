@@ -8,7 +8,9 @@ import { renderGames } from '/utils.js';
 import { sodas } from './sodas.js';
 import { renderSodas } from './utils.js';
 
-console.log(animals);
+import { musics } from './music.js';
+import { renderMusic } from './utils.js';
+
 const animalList = document.getElementById('animal-list');
 // let state
 for (let animal of animals) {
@@ -26,6 +28,13 @@ const sodaList = document.getElementById('soda-list');
 for (let soda of sodas) {
     const div = renderSodas(soda);
     sodaList.append(div);
+}
+
+const musicList = document.getElementById('music-list');
+
+for (let music of musics) {
+    const div = renderMusic(music);
+    musicList.append(div);
 }
 // set event listeners 
   // get user input

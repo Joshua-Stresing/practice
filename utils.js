@@ -27,10 +27,24 @@ export function renderGames(games) {
 export function renderSodas(soda) {
     const div = document.createElement('div');
     div.classList.add('soda');
+
     const h2 = document.createElement('h2');
     h2.textContent = soda.name.toUpperCase();
+
     const p = document.createElement('p');
     p.textContent = `Calories-${soda.nutrition.calories} in ${soda.nutrition.servingSize} serving.`;
     div.append(h2, p,);
+    return div;
+}
+export function renderMusic(music) {
+    const div = document.createElement('div');
+    div.classList.add('music');
+
+    const h2 = document.createElement('h2');
+    h2.textContent = music.genre.toUpperCase();
+
+    const p = document.createElement('p');
+    p.textContent = `${music.musicians} .`;
+    div.append(h2, p);
     return div;
 }
