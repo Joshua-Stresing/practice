@@ -9,7 +9,7 @@ export const animals = [
     },
     {
         type: 'redpanda',
-        numberOfLegs: 4,
+        numberOfLegs: 2,
         class: 'Mammal',
         cuteness: 12,
         image: 'icons8-red-panda-100.png',
