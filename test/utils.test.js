@@ -28,7 +28,7 @@ test('renderAnimal should return a <div> with dog info', (expect) => {
 });
 
 test('render music should return rap info', (expect) => {
-    const expected = '<div class=\"music\"><h2>RAP</h2><p>Eminem,Tupac,DMX .</p></div>';
+    const expected = '<div class="music"><h2>RAP</h2><p>Eminem,Tupac,DMX .</p></div>';
 
     const actual = renderMusic(
         {
